@@ -16,7 +16,7 @@ public class MyJump : MonoBehaviour
 
     void Update()
     {
-        timer = timer + Time.deltaTime; //타이머를 상승 시킨다.
+        timer = timer + Time.deltaTime; //타이머를 상승 시킨다.(deltaTime은  프레임간의 시간 간격을 의미한다.)
         textUI.text = timer.ToString(); //타이머 숫자를 문자열 변수로 변경한 후 표시 한다.
 
         if(Input.GetKeyDown(KeyCode.Space)) //스페이스 키를 눌렀을 때
