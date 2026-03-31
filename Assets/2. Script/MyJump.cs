@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// === | 점프 범위 연습 | ===
+/// </summary>
 public class MyJump : MonoBehaviour
 {
     public Rigidbody rigidbody; //강체 (형태와 크기가 고정된 고체) 물리 현상이 동작 하게 해주는 컴포넌트

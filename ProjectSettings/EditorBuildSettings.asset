@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/1. Scenes/CollisionScene.unity
+    guid: 697654972c6bfd643b94e2c82fd21c6a
+  - enabled: 1
     path: Assets/1. Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
